@@ -1,5 +1,7 @@
 # BankDetailsApi
   This is a restful service to fetch the bank details from the IFSC code, name of the bank and city.
+  I have also implemented django import export feature so that all the bank details can be directly 
+  uploaded via admin. I have uploaded the details using that only.
   
   ## Installation
       Use the following command: "pip install -r requirements.txt" to install all the requirements.
