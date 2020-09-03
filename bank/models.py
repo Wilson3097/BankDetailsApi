@@ -4,15 +4,15 @@ from django.db import models
 
 
 class BankDetails(models.Model):
-    Id = models.AutoField(primary_key=True)
+    bankId = models.AutoField(primary_key=True)
     ifsc = models.CharField(max_length=20)
-    bank_id = models.IntegerField()
     branch = models.CharField(max_length=200)
     address = models.CharField(max_length=500)
     city = models.CharField(max_length=200)
     district = models.CharField(max_length=200)
     state = models.CharField(max_length=200)
-    bank_name = models.CharField(max_length=200)
+    bankName = models.CharField(max_length=200)
+    contact = models.CharField(max_length=200)
 
     def __str__(self):
-        return self.bank_name
+        return self.bankName

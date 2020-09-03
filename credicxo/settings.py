@@ -25,7 +25,7 @@ SECRET_KEY = 'ank2bd*ujp(#5eae0k81d(8=q6cjql!yz37#b6@-7ucfh&40n)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['credicxoapp.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['credicxoapp.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'credicxo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'wilson2',
+        'NAME': 'bank',
         'USER': 'postgres',
         'PASSWORD': 'devilmaycry4',
         'HOST': 'localhost'

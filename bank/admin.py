@@ -9,7 +9,7 @@ class BankResource(resources.ModelResource):
     class Meta:
         model = BankDetails
         exclude = ('id',)
-        import_id_fields = ('Id',)
+        import_id_fields = ('bankId',)
 
 
 class BankAdmin(ImportExportModelAdmin):
