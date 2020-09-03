@@ -52,13 +52,6 @@
            <td>public</td>
            <td>search details from name and city</td>
        </tr>
-   	 <tr>
-           <td>3.</td>
-           <td>bank/getAllBanks/</td>
-           <td>GET</td>
-           <td>public</td>
-           <td>returns all the bank details</td>
-       </tr>
   <tr>
            <td>3.</td>
            <td>bank/crudBank/</td>
