@@ -1,7 +1,7 @@
 # BankDetailsApi
   This is a restful service to fetch the bank details from the IFSC code, name of the bank and city.
   I have also implemented django import export feature so that all the bank details can be directly 
-  uploaded via admin. I have uploaded the details using that only.
+  uploaded in bulk via admin. I have uploaded the details using that only. I have uploaded around 500k bank details using import feature directly and have tested all the apis on the data.
   
   ## Installation
       Use the following command: "pip install -r requirements.txt" to install all the requirements.
@@ -43,14 +43,14 @@
            <td>bank/getDetailsFromIFSC/</td>
            <td>POST</td>
            <td>public</td>
-           <td>Get details from IFSC</td>
+           <td>search details from IFSC</td>
        </tr>
    	 <tr>
            <td>2.</td>
            <td>bank/getDetailsFromNameCity/</td>
            <td>POST</td>
            <td>public</td>
-           <td>Get details from name and city</td>
+           <td>search details from name and city</td>
        </tr>
    	 <tr>
            <td>3.</td>
@@ -59,7 +59,42 @@
            <td>public</td>
            <td>returns all the bank details</td>
        </tr>
+  <tr>
+           <td>3.</td>
+           <td>bank/crudBank/</td>
+           <td>GET</td>
+           <td>public</td>
+           <td>returns all the bank details</td>
+       </tr>
+  <tr>
+           <td>3.</td>
+           <td>bank/crudBank/</td>
+           <td>POST</td>
+           <td>public</td>
+           <td>creates a bank</td>
+       </tr>
+  <tr>
+           <td>3.</td>
+           <td>bank/crudBank/1/</td>
+           <td>GET</td>
+           <td>public</td>
+           <td>returns a particular bank details</td>
+       </tr>
 
+  <tr>
+           <td>3.</td>
+           <td>bank/crudBank/1/</td>
+           <td>PUT</td>
+           <td>public</td>
+           <td>Update bank details</td>
+       </tr>
+        <tr>
+           <td>3.</td>
+           <td>bank/crudBank/1/</td>
+           <td>DELETE</td>
+           <td>public</td>
+           <td>Delete bank details</td>
+       </tr>
 
    </table>
 
