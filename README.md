@@ -7,18 +7,12 @@
       Use the following command: "pip install -r requirements.txt" to install all the requirements.
       Use postman to test all the apis.
    
-   ## Deployment
-       This app is deployed on heroku.
-       The URL is credicxoapp.herokuapp.com
   
   
  ## APIs Documentation
-    Use the above url as the base url and then the endpoints mentioned below to test in the postman.
-    For eg  credicxoapp.herokuapp.com/bank/getDetailsFromIFSC/
+    You can run it on localhost.
+    For eg  localhost/bank/getDetailsFromIFSC/
     All the APIs have been tested on Postman and are working perfectly fine.
-    For now I have uploaded the first 500 banks from the list of banks. 
-    As free heroku server had its limitations. 
-    So please while querying give any ifsc,name or city from the first 500 only. 
     I have handled the edge cases if the bank is not present.
     
     Postman
